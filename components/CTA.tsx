@@ -26,11 +26,17 @@ const CTA = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <button className="flex items-center justify-center gap-3 px-10 py-5 bg-white text-medical-primary font-black rounded-2xl hover:bg-blue-50 transition-all hover:scale-105 active:scale-95 shadow-xl">
-                <Calendar size={22} />
-                Prendre rendez-vous
-                <ArrowRight size={20} />
-              </button>
+             <a
+                href="https://wa.me/261341234567?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez-vous."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="flex items-center justify-center gap-3 px-10 py-5 bg-white text-medical-primary font-black rounded-2xl hover:bg-blue-50 transition-all hover:scale-105 active:scale-95 shadow-xl">
+                  <Calendar size={22} />
+                  Prendre rendez-vous
+                  <ArrowRight size={20} />
+                </button>
+              </a>
               <button className="flex items-center justify-center gap-3 px-10 py-5 bg-medical-dark text-white font-black rounded-2xl hover:bg-black transition-all hover:scale-105 active:scale-95 border border-blue-400/30">
                 <Laptop size={22} />
                 Demander une démo

@@ -33,13 +33,22 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
-              <button className="flex items-center justify-center gap-2 px-8 py-4 bg-medical-primary text-white font-bold rounded-2xl hover:bg-blue-700 shadow-xl shadow-blue-200 transition-all hover:scale-105 active:scale-95 group">
-                Prendre rendez-vous
-                <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
-              </button>
-              <button className="px-8 py-4 bg-white text-medical-dark border-2 border-gray-100 font-bold rounded-2xl hover:border-medical-primary transition-all active:scale-95">
-                Découvrir nos services
-              </button>
+              <a
+                href="https://wa.me/261341234567?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez-vous."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="flex items-center justify-center gap-3 px-10 py-5 bg-white text-medical-primary font-black rounded-2xl hover:bg-blue-50 transition-all hover:scale-105 active:scale-95 shadow-xl">
+                  <Calendar size={22} />
+                  Prendre rendez-vous
+                  <ArrowRight size={20} />
+                </button>
+              </a>
+              <a href="#comment-ca-marche">
+                <button className="px-8 py-4 bg-white text-medical-dark border-2 border-gray-100 font-bold rounded-2xl hover:border-medical-primary transition-all active:scale-95">
+                  Découvrir nos services
+                </button>
+              </a>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">

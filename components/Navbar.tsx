@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X, User } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image"
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -18,10 +19,10 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Accueil", href: "#" },
-    { name: "Services", href: "#comment-ca-marche" },
-    { name: "Comment ça marche", href: "#comment-ca-marche" },
-    { name: "Témoignages", href: "#temoignages" },
+    { name: "Pour les patients", href: "#" },
+    { name: "Pour les cabinets", href: "#comment-ca-marche" },
+    { name: "Professionnels santé", href: "#comment-ca-marche" },
+    { name: "A propos", href: "#temoignages" },
   ];
 
   return (
@@ -33,13 +34,14 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-medical-primary rounded-xl flex items-center justify-center text-white font-bold text-xl">
-              G
-            </div>
-            <span className="text-2xl font-bold text-medical-dark tracking-tight">
-              Gasy<span className="text-medical-primary">Doc</span>
-            </span>
+          <Link href="/" className="flex items-center gap-2 ml-6">
+            <Image
+              src="/img/LogoGasy Doc.png"
+              alt="GasyDoc"
+              width={80}
+              height={80}
+              className="rounded-xl"
+            />
           </Link>
 
           {/* Desktop Menu */}

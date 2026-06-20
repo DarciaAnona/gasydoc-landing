@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Calendar, CheckCircle2, ShieldCheck, ArrowRight, User } from "lucide-react";
+import { Calendar, CheckCircle2, ShieldCheck, ArrowRight, User, Building } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -46,7 +47,7 @@ const Hero = () => {
               </a>
               <a href="#comment-ca-marche">
                 <button className="px-8 py-4 bg-white text-medical-dark border-2 border-gray-100 font-bold rounded-2xl hover:border-medical-primary transition-all active:scale-95">
-                  Découvrir nos services
+                  Recherchez un médecin
                 </button>
               </a>
             </div>
@@ -105,7 +106,7 @@ const Hero = () => {
             >
               <div className="bg-gray-100 rounded-[2rem] overflow-hidden aspect-[9/19]">
                 <Image
-                  src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=600"
+                  src="/img/table_operation.jpg"
                   alt="Mobile Medical App"
                   width={300}
                   height={600}
@@ -128,6 +129,26 @@ const Hero = () => {
                 <div>
                   <p className="text-2xl font-bold text-medical-dark">+500</p>
                   <p className="text-xs text-gray-500 font-semibold uppercase tracking-wider">Médecins actifs</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ x: 20, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.9, duration: 0.5 }}
+              className="absolute top-2/3 -right-6 z-30 bg-white p-4 rounded-2xl shadow-xl border border-gray-100"
+            >
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600">
+                  <Building size={24} />
+                </div>
+
+                <div>
+                  <p className="text-2xl font-bold text-medical-dark">+450</p>
+                  <p className="text-xs text-gray-500 font-semibold uppercase tracking-wider">
+                    Cabinets partenaires
+                  </p>
                 </div>
               </div>
             </motion.div>

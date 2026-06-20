@@ -9,7 +9,6 @@ const advantages = [
   "Gestion simplifiée des rendez-vous et des annulations",
   "Réduction de 75% du temps administratif",
   "Dossier Patient Informatisé (DPI) sécurisé",
-  "Téléconsultation intégrée nativement",
 ];
 
 const MedicalVisibility = () => {

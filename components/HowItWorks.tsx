@@ -6,7 +6,7 @@ import { Search, CalendarDays, ClipboardCheck } from "lucide-react";
 const steps = [
   {
     id: "01",
-    title: "Recherchez un praticien",
+    title: "Recherchez un médecin",
     description: "Trouvez facilement le médecin ou le cabinet dont vous avez besoin selon votre localisation et la spécialité recherchée.",
     icon: <Search className="w-8 h-8" />,
     color: "bg-blue-100 text-medical-primary",
@@ -37,7 +37,7 @@ const HowItWorks = () => {
             Votre santé en 3 étapes simples
           </h3>
           <p className="text-lg text-gray-600">
-            Une expérience utilisateur pensée pour être intuitive et rapide pour tous les patients à Madagascar.
+            Une plateforme pour être intuitive et rapide pour tous les patients à Madagascar.
           </p>
         </div>
 

@@ -59,7 +59,7 @@ const NetworkSection = () => {
           <div>
             <h2 className="text-blue-400 font-bold tracking-widest uppercase text-sm mb-4">Notre Réseau</h2>
             <h3 className="text-4xl md:text-5xl font-extrabold mb-8 leading-tight">
-              Présent sur tout <br/>le <span className="text-blue-400">territoire malgache</span>
+              Présent sur tout <br/>le <span className="text-blue-400">territoire Malagasy</span>
             </h3>
             <p className="text-lg text-blue-100/70 mb-12 leading-relaxed">
               Nous construisons le plus grand réseau de santé numérique à Madagascar pour garantir un accès aux soins de qualité, même dans les zones les plus reculées.

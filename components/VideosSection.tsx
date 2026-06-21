@@ -24,8 +24,8 @@ const videos = [
     thumbnail: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?auto=format&fit=crop&q=80&w=800",
   },
   {
-    title: "Prendre soin de sa santé mentale en milieu professionnel",
-    category: "Psychologie",
+    title: "Comprenez les symptômes, les traitements et les moyens de prévention.",
+    category: "Maladies infectieuses",
     duration: "10:30",
     thumbnail: "https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?auto=format&fit=crop&q=80&w=800",
   },
@@ -39,7 +39,7 @@ const VideosSection = () => {
           <div className="max-w-2xl">
             <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Médiathèque</h2>
             <h3 className="text-4xl md:text-5xl font-extrabold text-medical-dark leading-tight">
-              Apprenez à prendre soin de <span className="text-medical-primary">votre santé</span>
+              Informez-vous sur <span className="text-medical-primary">votre santé</span>
             </h3>
           </div>
           <button className="flex items-center gap-2 text-medical-primary font-bold hover:gap-3 transition-all px-6 py-3 bg-blue-50 rounded-xl">

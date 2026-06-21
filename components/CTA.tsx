@@ -27,7 +27,7 @@ const CTA = () => {
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
              <a
-                href="https://wa.me/261341234567?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez-vous."
+                href="https://wa.me/+261 34 70 481 76?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez-vous."
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -44,7 +44,7 @@ const CTA = () => {
             </div>
 
             <p className="mt-10 text-sm font-medium text-blue-200">
-              Essai gratuit de 30 jours pour les praticiens • Sans engagement • Installation en 5 minutes
+              Essai gratuit de 30 jours pour les médecins • Sans engagement • Installation en 5 minutes
             </p>
           </div>
         </motion.div>

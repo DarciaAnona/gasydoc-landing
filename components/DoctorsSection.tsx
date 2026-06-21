@@ -122,7 +122,7 @@ const DoctorsSection = () => {
               <div className="bg-gray-900 rounded-[3rem] p-3 shadow-2xl border-4 border-gray-800">
                 <div className="bg-white rounded-[2.5rem] overflow-hidden aspect-[9/19]">
                    <Image
-                    src="https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?auto=format&fit=crop&q=80&w=600"
+                    src="https://images.unsplash.com/photo-1666886573531-48d2e3c2b684?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Mobile interface"
                     width={300}
                     height={600}
@@ -140,7 +140,7 @@ const DoctorsSection = () => {
               Gérez votre cabinet en <span className="text-blue-500">toute simplicité</span>
             </h3>
             <p className="text-lg text-gray-400 mb-10 leading-relaxed">
-              Une interface complète et intuitive pour suivre vos patients, organiser vos consultations et optimiser votre temps. Conçu spécifiquement pour les besoins des médecins malgaches.
+              Une interface complète et intuitive pour suivre vos patients, organiser vos consultations et optimiser votre temps. Conçu spécifiquement pour les besoins des médecins Malagasy.
             </p>
 
             <div className="grid grid-cols-2 gap-8 mb-10">
@@ -152,9 +152,9 @@ const DoctorsSection = () => {
               </div>
               <div className="space-y-4">
                 <h5 className="text-white font-bold flex items-center gap-2">
-                  <div className="w-2 h-2 bg-green-500 rounded-full" /> Facturation Facile
+                  <div className="w-2 h-2 bg-green-500 rounded-full" /> Diagnostic rapide
                 </h5>
-                <p className="text-sm text-gray-500">Générez vos factures et suivez vos revenus en temps réel.</p>
+                <p className="text-sm text-gray-500">Obtenez des suggestions et optimisez vos diagnostics rapidement.</p>
               </div>
             </div>
 

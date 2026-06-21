@@ -35,7 +35,7 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <a
-                href="https://wa.me/261341234567?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez-vous."
+                href="https://wa.me/+261 34 70 481 76?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez-vous."
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -69,7 +69,7 @@ const Hero = () => {
                 <div className="p-2 bg-orange-100 text-medical-accent rounded-lg">
                   <CheckCircle2 size={20} />
                 </div>
-                <span className="text-sm font-bold text-gray-700">Praticiens certifiés</span>
+                <span className="text-sm font-bold text-gray-700">Médecins certifiés</span>
               </div>
             </div>
           </motion.div>

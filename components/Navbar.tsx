@@ -22,7 +22,7 @@ const Navbar = () => {
     { name: "Patients", href: "#" },
     { name: "Etablissement de santé", href: "#comment-ca-marche" },
     { name: "Professionnels santé", href: "#comment-ca-marche" },
-    { name: "A propos", href: "#temoignages" },
+    { name: "A propos", href: "/a-propos" },
   ];
 
   return (

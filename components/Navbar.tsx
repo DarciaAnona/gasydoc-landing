@@ -19,8 +19,8 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Pour les patients", href: "#" },
-    { name: "Pour les cabinets", href: "#comment-ca-marche" },
+    { name: "Patients", href: "#" },
+    { name: "Etablissement de santé", href: "#comment-ca-marche" },
     { name: "Professionnels santé", href: "#comment-ca-marche" },
     { name: "A propos", href: "#temoignages" },
   ];

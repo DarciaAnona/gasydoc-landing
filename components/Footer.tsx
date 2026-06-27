@@ -36,7 +36,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold text-medical-dark mb-8">Liens Rapides</h4>
             <ul className="space-y-4">
-              {["Pour les patients", "Pour les cabinets", "Professionnels santé", "A propos"].map((link) => (
+              {["Patients", "Etablissement de santé", "Professionnels santé", "A propos"].map((link) => (
                 <li key={link}>
                   <Link href="#" className="text-gray-500 hover:text-medical-primary transition-colors font-medium">
                     {link}

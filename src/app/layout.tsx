@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Gasy doc",
-  description: "Le futur de la santé à Madagascar",
+  description: "Votre réseau de santé connecté à Madagascar",
 };
 
 export default function RootLayout({

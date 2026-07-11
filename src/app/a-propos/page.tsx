@@ -81,7 +81,7 @@ export default function AProposPage() {
             </ul>
           </div>
 
-          <div className="rounded-2xl overflow-hidden shadow-lg flex items-center justify-center">
+          <div className="rounded-2xl overflow-hidden shadow-lg flex items-center justify-center mt-20">
             <Image
               src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=1200&q=80"
               alt="Vision"

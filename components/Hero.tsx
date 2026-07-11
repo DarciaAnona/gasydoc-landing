@@ -35,7 +35,7 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <a
-                href="https://wa.me/+261 34 70 481 76?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez-vous."
+                href="https://wa.me/261347048176?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez-vous."
                 target="_blank"
                 rel="noopener noreferrer"
               >

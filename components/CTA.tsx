@@ -1,8 +1,9 @@
 "use client";
+import React, { useState } from 'react';
 
 import { motion } from "framer-motion";
 import { ArrowRight, Calendar, Laptop } from "lucide-react";
-
+import Link from "next/link";
 const CTA = () => {
   return (
     <section className="py-20 bg-white">
@@ -27,7 +28,7 @@ const CTA = () => {
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
              <a
-                href="https://wa.me/+261 34 70 481 76?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez-vous."
+                href="https://wa.me/261347048176?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez-vous."
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,10 +38,14 @@ const CTA = () => {
                   <ArrowRight size={20} />
                 </button>
               </a>
-              <button className="flex items-center justify-center gap-3 px-10 py-5 bg-medical-dark text-white font-black rounded-2xl hover:bg-black transition-all hover:scale-105 active:scale-95 border border-blue-400/30">
+              <Link
+                href="/diagnostic"
+                target="_blank"
+                className="flex items-center justify-center gap-3 px-10 py-5 bg-medical-dark text-white font-black rounded-2xl hover:bg-black transition-all hover:scale-105 active:scale-95 border border-blue-400/30"
+              >
                 <Laptop size={22} />
                 Demander une démo
-              </button>
+              </Link>
             </div>
 
             <p className="mt-10 text-sm font-medium text-blue-200">

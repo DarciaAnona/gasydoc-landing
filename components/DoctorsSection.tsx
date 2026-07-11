@@ -13,6 +13,7 @@ import {
   Plus
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const stats = [
   { label: "Patients", value: "1,284", icon: <Users size={18} />, color: "text-blue-600", bg: "bg-blue-50" },
@@ -159,9 +160,13 @@ const DoctorsSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-6">
-              <button className="px-8 py-4 bg-blue-600 text-white font-bold rounded-2xl hover:bg-blue-700 transition-all active:scale-95">
+              <Link
+                href="/diagnostic"
+                target="_blank"
+                className="flex items-center justify-center gap-3 px-10 py-5 bg-medical-dark text-white font-black rounded-2xl hover:bg-black transition-all hover:scale-105 active:scale-95 border border-blue-400/30"
+              >
                 Demander une démo
-              </button>
+              </Link>
               <div className="flex items-center gap-4">
                 <div className="flex -space-x-3">
                   {[1, 2, 3].map((i) => (

@@ -40,8 +40,8 @@ export default function RootLayout({
           {children}
         </main>
 
-        {/* FOOTER */}
-        <Footer />
+        {/* FOOTER 
+        <Footer />*/}
 
       </body>
     </html>

@@ -69,7 +69,7 @@ export default function AProposPage() {
         {/* Vision & Mission */}
         <section className="grid md:grid-cols-2 gap-8 items-center mb-12">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-medical-dark mb-3">Notre Vision</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-medical-dark mb-3 mt-20">Notre Vision</h2>
             <p className="text-gray-700 leading-relaxed mb-4 max-w-xl">
               Construire un système de santé plus accessible et plus humain grâce au numérique. Chaque
               patient trouve les soins adaptés et les professionnels disposent d'outils pour améliorer la prise en charge.

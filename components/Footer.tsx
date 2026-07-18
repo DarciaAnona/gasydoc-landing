@@ -37,9 +37,9 @@ const Footer = () => {
             <h4 className="text-lg font-bold text-medical-dark mb-8">Liens Rapides</h4>
             <ul className="space-y-4">
               {[
-                { name: "Patients", href: "/patients" },
-                { name: "Etablissement de santé", href: "/etablissements" },
-                { name: "Professionnels santé", href: "/professionnels" },
+                { name: "Patients", href: "/" },
+                { name: "Etablissements de santé", href: "/#reseau" },
+                { name: "Professionnels santé", href: "https://gasydoc-platform.vercel.app/signup" },
                 { name: "A propos", href: "/a-propos" },
               ].map((link) => (
                 <li key={link.name}>

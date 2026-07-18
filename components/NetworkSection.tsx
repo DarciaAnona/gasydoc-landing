@@ -56,7 +56,7 @@ const NetworkSection = () => {
           </div>
 
           {/* Content (Right) */}
-          <div>
+          <div  id="reseau">
             <h2 className="text-blue-400 font-bold tracking-widest uppercase text-sm mb-4">Notre Réseau</h2>
             <h3 className="text-4xl md:text-5xl font-extrabold mb-8 leading-tight">
               Présent sur tout <br/>le <span className="text-blue-400">territoire Malagasy</span>

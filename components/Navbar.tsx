@@ -19,9 +19,9 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Patients", href: "#" },
-    { name: "Etablissement de santé", href: "#comment-ca-marche" },
-    { name: "Professionnels santé", href: "#comment-ca-marche" },
+    { name: "Patients", href: "/" },
+    { name: "Etablissements de santé", href: "/#reseau" },
+    { name: "Professionnels santé", href: "https://gasydoc-platform.vercel.app/signup" },
     { name: "A propos", href: "/a-propos" },
   ];
 
@@ -60,13 +60,13 @@ const Navbar = () => {
           {/* Auth Buttons */}
           <div className="hidden md:flex items-center gap-4">
             <Link
-              href="/login"
+              href="https://gasydoc-platform.vercel.app/login"
               className="px-5 py-2.5 text-medical-primary font-semibold hover:bg-medical-light rounded-full transition-all"
             >
               Connexion
             </Link>
             <Link
-              href="/register"
+              href="https://gasydoc-platform.vercel.app/signup"
               className="px-6 py-2.5 bg-medical-primary text-white font-semibold rounded-full hover:bg-blue-700 shadow-lg shadow-blue-200 transition-all active:scale-95"
             >
               S&apos;inscrire

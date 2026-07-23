@@ -28,7 +28,7 @@ const CTA = () => {
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
              <a
-                href="https://wa.me/261347048176?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez-vous."
+                href="https://gasydoc-perso-frontend.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

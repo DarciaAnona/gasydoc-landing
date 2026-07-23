@@ -39,7 +39,10 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="flex items-center justify-center gap-3 px-10 py-5 bg-white text-medical-primary font-black rounded-2xl hover:bg-blue-50 transition-all hover:scale-105 active:scale-95 shadow-xl">
+               <button
+                  onClick={() => window.open("https://gasydoc-perso-frontend.vercel.app/", "_blank")}
+                  className="flex items-center justify-center gap-3 px-10 py-5 bg-white text-medical-primary font-black rounded-2xl hover:bg-blue-50 transition-all hover:scale-105 active:scale-95 shadow-xl"
+                >
                   <Calendar size={22} />
                   Prenez votre rendez-vous
                   <ArrowRight size={20} />

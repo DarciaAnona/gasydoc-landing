@@ -38,8 +38,8 @@ const Footer = () => {
             <ul className="space-y-4">
               {[
                 { name: "Patients", href: "/" },
-                { name: "Etablissements de santé", href: "/#reseau" },
-                { name: "Professionnels santé", href: "https://gasydoc-platform.vercel.app/signup" },
+                { name: "Etablissements de santé", href: "https://gasydoc-perso-frontend.vercel.app/" },
+                { name: "Professionnels santé", href: "https://gasydoc-platform.vercel.app" },
                 { name: "A propos", href: "/a-propos" },
               ].map((link) => (
                 <li key={link.name}>

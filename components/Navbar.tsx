@@ -20,8 +20,8 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Patients", href: "/" },
-    { name: "Etablissements de santé", href: "/#reseau" },
-    { name: "Professionnels santé", href: "https://gasydoc-platform.vercel.app/signup" },
+    { name: "Etablissements de santé", href: "https://gasydoc-perso-frontend.vercel.app/" },
+    { name: "Professionnels santé", href: "https://gasydoc-platform.vercel.app" },
     { name: "A propos", href: "/a-propos" },
   ];
 

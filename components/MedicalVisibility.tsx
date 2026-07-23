@@ -40,9 +40,7 @@ const MedicalVisibility = () => {
               ))}
             </div>
 
-            <button className="px-8 py-4 bg-medical-dark text-white font-bold rounded-2xl hover:bg-black transition-all shadow-lg active:scale-95">
-              Inscrire mon cabinet
-            </button>
+         <button onClick={() => window.open("https://gasydoc-platform.vercel.app/", "_blank")} className="px-8 py-4 bg-medical-dark text-white font-bold rounded-2xl hover:bg-black transition-all shadow-lg active:scale-95" > Inscrire mon cabinet </button>
           </motion.div>
 
           {/* Right: Video & Testimonial Card */}
